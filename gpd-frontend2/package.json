@@ -1,0 +1,26 @@
+{
+  "name": "gpd-frontend",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.15.1",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "node-libs-browser": "^0.5.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "flux": "^2.0.3",
+    "object-assign": "^3.0.0",
+    "react": "^0.13.3",
+    "underscore": "^1.8.3"
+  },
+  "scripts": {
+    "serve-assets": "webpack-dev-server --progress --colors --port 8090 --content-base=web/"
+  }
+}
